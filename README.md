@@ -27,6 +27,22 @@ Update order status
 Restore stock when a pending order is cancelled  
 Analytics endpoint for top-selling products  
 
+API Endpoints
+
+| Method | Endpoint | Description |
+|------|------|------|
+| POST | /users | Create a new user |
+| GET | /users | List all users |
+| POST | /products | Create a new product |
+| GET | /products | List all products |
+| POST | /orders | Create an order |
+| POST | /orders/preview | Preview order without creating it |
+| GET | /orders | List all orders |
+| GET | /orders/{order_id} | Get order details |
+| GET | /users/{user_id}/orders | Get orders of a user |
+| PATCH | /orders/{order_id}/status | Update order status |
+| GET | /analytics/top-products | Get top selling products |
+
 ---
 
 Order Status Flow
